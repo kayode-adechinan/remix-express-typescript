@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "outDir": "dist",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "baseUrl": "."
+    //"rootDir": "app/utils/backend"
+  },
+  "include": ["lib/*"]
+  //"exclude": ["node_modules", "app/routes/", "app/components/", "app/styles/"]
+}
